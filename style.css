@@ -1,0 +1,37 @@
+body{
+
+}
+/* top player secition  */
+main{
+    display: flex;
+    justify-content: center;
+
+}
+.container{
+    width: 900px;
+    padding: 30px;
+    background-color: rgb(233, 229, 223);
+}
+.top-players{
+    
+}
+.section-tittle{
+    color: blue;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+    border-radius: 30px;
+}
+.player h3{
+    margin-left: 10px;
+}
